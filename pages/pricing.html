@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>A. M. Photography</title>
+	<link rel="stylesheet" href="../css/stylesheet.css"><link href='http://fonts.googleapis.com/css?family=Lato:300|Gravitas+One|Vollkorn:400italic' rel='stylesheet' type='text/css'>
+
+<body class="margin">
+	<div class="banner">
+			<div class="nav">
+				<ul class="menu clearfix">
+					<li class="hidden"><a href="series.html">Series &#9662</a>
+						<ul class="submenu">
+							<li> <a href="series-portrait.html">Portraits</a></li>
+							<li><a href="series-flora.html">Flora</a></li>
+							<li><a href="series-fauna.html">Fauna</a></li>
+						</ul>
+					</li>
+					<li><a href="portfolio.html">Portfolio</a></li>
+					<a href="index.html"><h1 class="imgReplace">A. M. Photography</h1></a>
+					<li class="current"><a href="pricing.html">Pricing</a></li>
+					<li class="hidden"><a href="services.html">Services &#9662</a>
+						<ul class="submenu">
+							<li><a href="services-events.html">Events &#9656</a>
+								<ul class="subsubmenu">
+									<li><a href="events-weddings.html">Weddings & Engagement</a></li>
+									<li><a href="events-parties.html">Parties</a></li>
+								</ul>
+							<li><a href="services-portrait.html">Portraits</a></li>
+							<li><a href="sevices-products.html">Products</a></li>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</div><!--close nav -->
+	</div> <!--close banner-->
+	<div class="price-wrapper">
+		<div class="chart">
+		<ul class="toc clearfix">
+			<div class="tab event"><label for="event-content"><li>Events</li></label></div>			
+			<div class="tab portrait"><label for="portrait-content"><li>Portraits</li></label></div>
+			<div class="tab product"><label for="product-content"><li>Products</li></label></div>
+		</ul>
+		<input type="radio" id="event-content" name="layer" checked>
+		<div class="chart-content event-content">
+			<div class="left clearfix">
+				<h5>Wedding</h5>
+				<p>2000</p>
+				<h5>Engagement</h5>
+				<p>600</p>
+				<h5>Corporate Event</h5>
+				<p>800</p>
+			</div>
+		</div>
+
+		<input type="radio" id="portrait-content" name="layer">
+		<div class="chart-content portrait-content">
+			<div class="left clearfix">
+				<h5>15 minutes</h5>
+				<h6>2 edited digital photos</h6>
+				<p>50</p>
+				<h5>30 minutes</h5>
+				<h6>5 edited digital photos</h6>
+				<p>100</p>
+			</div>
+		</div>
+
+		<input type="radio" id="product-content" name="layer">
+		<div class="chart-content product-content">
+			<div class="left clearfix">
+				<h5>5 products</h5>
+				<p>60</p>
+				<h5>15 products</h5>
+				<p>120</p>
+			</div>
+		</div>
+	</div>
+	</div>
+	<div class="footer">
+		<div class="news">
+			<a class="twitter-timeline" href="https://twitter.com/Amulree" data-widget-id="432379521635856385">Tweets by @Amulree</a>
+			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+		</div>
+		<div class="right">	
+			<div class="logos">
+				<ul>
+					<li><a href="https://twitter.com/Amulree"><img class="logo" src="../images/svg/twitter.svg" alt="Twitter Logo"></a></li>
+					<li><a href="http://amulreephoto.blogspot.ca/"><img class="logo" src="../images/svg/blogger.svg" alt="Blogspot Logo"></a></li>
+					<li><label for="mailtoggle"><img class="logo email" src="../images/svg/email.svg" alt="Email Logo"></label></li>
+				</ul>
+			</div>
+			<div class="callToAction">
+				<h4>I'd love to hear from you!</h4>
+			</div>
+		</div>
+		<input type="checkbox" id="mailtoggle">
+		<div class="form">
+			<form name="input" action="html_form_action.asp" method="get">
+				<table>
+					<tr><th>Name:</th><td><input type="text" name="name" placeholder="Jane Doe"></td></tr>
+					<tr><th>E-mail:</th><td><input type="text" name="email" placeholder="j.doe@gmail.com"></td></tr>
+					<tr><th>Message:</th><td><textarea name="message" cols="50" rows="5" placeholder="Type your message here..."></textarea></td></tr>	
+				</table>
+				<input class="button" type="submit" value="Send">
+			</form>
+		</div>
+	</div>
+	<script src="../js/masonry.pkgd.js"></script>
+</body>
+</html>
